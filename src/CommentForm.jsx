@@ -68,7 +68,7 @@ export default function CommentForm({ onCancel, onSubmit, initialData }) {
                     />
                     {showError && <p className="text-red-500 text-[9px] mt-1 font-bold italic">⚠️ Comment is required</p>}
                 </div>
-                <label className="text-gray-400 text-[9px] font-bold uppercase block mb-0.5">Upload supporting document <span className="text-red-500">*</span></label>
+                <label className="text-gray-400 text-[9px] font-bold uppercase block mb-0.5">Upload supporting document</label>
 
                 <div className="relative border border-gray-300 rounded-lg p-2 flex items-center justify-between overflow-hidden hover:bg-gray-50 transition-colors">
                     <span className="text-gray-400 text-[10px] truncate pr-4">{file ? `✅ ${file.name}` : "Attach document"}</span>
